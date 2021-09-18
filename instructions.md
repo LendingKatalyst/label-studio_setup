@@ -27,7 +27,7 @@ Step 04 :
  
  Step 05 : 
  
- Open a mozilla browser an enter the following address which takes you to the label-studio interface
+ Open the mozilla browser and enter the following address which takes you to the label-studio interface
  ```
  http://0.0.0.0:8080/projects/
  ```
