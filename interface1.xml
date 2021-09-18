@@ -1,0 +1,37 @@
+<View>
+  <!-- Image with Polygons -->
+    <View style="padding: 5px;  box-shadow: 2px 2px 8px #AAA ;  position: sticky; top: 0; border-radius: 3px">
+      <Header value="Consider the OCT scan and model's transparency map"/>
+      <Image name="image" value="$image" zoomControl="true" width="100%" maxWidth="1600px"/>
+    </View>
+    <View style="height: 300px; overflow: auto;">
+      <View style="padding: 25px;  box-shadow: 2px 2px 8px #AAA">
+        <Header value=" Grade the above raw image based on choroidal diagnostic quality ">
+        </Header>
+        <Choices name="grade" toName="image" choice="single" required="true" >
+          <Choice value="Good" />
+          <Choice value="Bad" />
+        </Choices>
+      </View>
+      <View style="padding: 25px;  box-shadow: 2px 2px 8px #AAA">
+        <Header value="Q1: Choroid Horizontal Extent">
+        </Header>
+        <Number name="R1" toName="image" min="0" max="100" step="5" required="true"/>
+      </View>
+      <View style="padding: 25px;  box-shadow: 2px 2px 8px #AAA">
+        <Header value="Q2: Choroid Vertical Extent">
+        </Header>
+        <Number name="R2" toName="image" min="0" max="100" step="5" required="true"/>
+      </View>
+      <View style="padding: 25px;  box-shadow: 2px 2px 8px #AAA">
+        <Header value="Q3: Choroid Overall Entent">
+        </Header>
+        <Number name="R3" toName="image" min="0" max="100" step="5" required="true"/>
+      </View>
+      <View style="padding: 25px;  box-shadow: 2px 2px 8px #AAA">
+        <Header value="Q4: Retinal Entent">
+        </Header>
+        <Number name="R4" toName="image" min="0" max="100" step="5" required="true"/>
+      </View>
+    </View>
+  </View>
