@@ -1,0 +1,28 @@
+Open the terminal : 
+
+Make sure (base) is visible :
+
+Step 01 :
+```
+conda activate label-studio
+```
+Step 02 :
+```
+
+```
+
+
+Step 03 : 
+
+Once (label-studio) is visible to the left.
+
+ ```
+ label-studio
+ ```
+ 
+ Step 04 : 
+ 
+ Open a browser an enter the following address which takes you to the label-studio interface
+ ```
+ 
+ ```
