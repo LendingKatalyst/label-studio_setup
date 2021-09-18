@@ -7,7 +7,7 @@ Step 01 :
 conda activate label-studio
 ```
 
->> Once (label-studio) is visible to the left in place of (base)
+(label-studio) will be  visible to the left in place of (base)
 
 
 Step 02 : enter the following command
