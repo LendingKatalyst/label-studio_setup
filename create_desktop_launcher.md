@@ -23,7 +23,7 @@ Step02 : Once the gedit editor opens , paste the following code there as save it
 Version=1.0
 Type=Application
 Terminal=false
-Exec=/home/surya/.local/bin/label-studio
+Exec=sh -c "export LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true ;label-studio start"
 Name=label-studio
 Comment=label-studio
 Icon = /home/surya/Desktop/label-studio/logo.png
