@@ -19,6 +19,10 @@ Step 03 : enter the following command : an output "true" should be printed after
 ```
 echo $LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED
 ```
+```
+LOCAL_FILES_DOCUMENT_ROOT=/home/user (or LOCAL_FILES_DOCUMENT_ROOT=C:\data\media for Windows).
+```
+
 
 Step 04 : 
  ```
