@@ -1,3 +1,4 @@
+
 <View>
   <!-- Image with Polygons -->
     <View style="padding: 5px;  box-shadow: 2px 2px 8px #AAA ;  position: sticky; top: 0; border-radius: 3px">
@@ -24,14 +25,21 @@
         <Number name="R2" toName="image" min="0" max="100" step="5" required="true"/>
       </View>
       <View style="padding: 25px;  box-shadow: 2px 2px 8px #AAA">
-        <Header value="Q3: Choroid Overall Entent">
+        <Header value="Q3: Choroid Overall Extent">
         </Header>
         <Number name="R3" toName="image" min="0" max="100" step="5" required="true"/>
       </View>
       <View style="padding: 25px;  box-shadow: 2px 2px 8px #AAA">
-        <Header value="Q4: Retinal Entent">
+        <Header value="Q4: Retinal Extent">
         </Header>
         <Number name="R4" toName="image" min="0" max="100" step="5" required="true"/>
       </View>
+
+      <View style="padding: 25px;  box-shadow: 2px 2px 8px #AAA">
+        <Header value="Q5: Non choroidal Extent">
+        </Header>
+        <Number name="R5" toName="image" min="0" max="100" step="5" required="true"/>
+      </View>
+
     </View>
   </View>
