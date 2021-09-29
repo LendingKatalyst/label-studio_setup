@@ -23,7 +23,7 @@ set LOCAL_FILES_DOCUMENT_ROOT=C:\Users\kiran\Desktop\expt01
 
 Step 04 : enter the following command, a mozilla window should open displaying  label studio projects
  ```
- label-studio
+ label-studio start
  ```
  
  Step 05 : If mozilla firefox does not open,  please wait for some time and do the following 
