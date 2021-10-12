@@ -9,7 +9,7 @@ Resource : https://stackoverflow.com/questions/60290516/automatically-execute-co
 Open Anaconda prompt (anaconda3) by searching in the seach bar at the bottom : 
 
 
-
+# Entering manual commands (Alternative)
 
 Make sure (base) is visible on the left end:
 
