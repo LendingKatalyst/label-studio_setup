@@ -1,4 +1,15 @@
+# Update 
+
+We can create a shortcut on the desktop that opens up the anaconda prompt and enters the following cmds that will open the label studio platform on the browser. 
+
+Resource : https://stackoverflow.com/questions/60290516/automatically-execute-commands-on-anaconda-prompt-startup
+
+
+
 Open Anaconda prompt (anaconda3) by searching in the seach bar at the bottom : 
+
+
+
 
 Make sure (base) is visible on the left end:
 
