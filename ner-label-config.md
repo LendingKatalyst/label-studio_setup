@@ -44,7 +44,8 @@ prefix: epi0/page_txts_pro/
 
 ## Target setup : 
 storage title : epi0-labels
-
+bucket name : lk-ner-0
+prefix: epi0/labels/
 
 ## Setup CORS config
 ```
