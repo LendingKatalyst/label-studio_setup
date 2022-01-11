@@ -31,8 +31,9 @@
       <Label value="VID" background="#FFA39E"/>
     </Labels>
   </View>
-  <Text name="text" value="$text"/>
+  <Text name="text" value="$text" valueType="url" saveTextResult='yes' />
 </View>
+
 
 ```
 
