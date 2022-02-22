@@ -36,6 +36,44 @@
 
 
 ```
+## Config for kannada -- includes a transcript to enter english text 
+```
+<View>
+  <View>
+    <Labels name="label1" toName="text">
+      <Label value="TTI" background="#FFA39E"/>
+      <Label value="VDT" background="#D4380D"/>
+      <Label value="VNM" background="#FFC069"/>
+      <Label value="TCO" background="#AD8B00"/>
+      <Label value="VNM" background="#FFC069"/>
+      <Label value="TAG" background="#D3F261"/>
+      <Label value="VNU" background="#389E0D"/>
+      <Label value="TUT" background="#5CDBD3"/>
+      <Label value="TSP" background="#096DD9"/>
+      <Label value="VLO" background="#ADC6FF"/>
+      <Label value="TRL" background="#9254DE"/>
+    </Labels>
+    <Labels name="label2" toName="text">
+      <Label value="TSS" background="#F759AB"/>
+      <Label value="VID" background="#FFA39E"/>
+      <Label value="TSP" background="#096DD9"/>
+      <Label value="VLO" background="#ADC6FF"/>
+      <Label value="TSP" background="#096DD9"/>
+      <Label value="TDI" background="#AD8B00"/>
+      <Label value="VNU" background="#D3F261"/>
+      <Label value="TUT" background="#389E0D"/>
+      <Label value="TSP" background="#096DD9"/>
+      <Label value="TDI" background="#AD8B00"/>
+      <Label value="VLO" background="#ADC6FF"/>
+      <Label value="TDI" background="#AD8B00"/>
+      <Label value="VID" background="#FFA39E"/>
+    </Labels>
+  </View>
+  <Text name="text" value="$text" valueType="url" saveTextResult="yes"/>
+  <TextArea name="transcription" toName="text" editable="true" perRegion="true" required="true" maxSubmissions="1" rows="1" placeholder="English Text"/>
+</View>
+
+```
 
 ## AWS setup :
 storage title : epi0
